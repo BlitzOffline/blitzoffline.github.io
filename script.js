@@ -218,4 +218,4 @@ $(document).ready(function(){
 });
 
 let d = new Date();
-$('.yearname').text(`${d.getFullYear()} @ Ruben Popus`);
+$('.yearname').text(`${d.getFullYear()} @ Blitz Gamer`);
