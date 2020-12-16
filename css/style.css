@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    background-color: #000000;
+    
+  }
+
+.nav-bar {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #121212;
+}
+
+.nav-button {
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    ul.nav-bar li {float: none;}
+    ul.nav-bar #icon {float: none;}
+  }
+
+#icon {
+    list-style-type: none;
+    color: #ffffff;
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 1%;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: #BB86FC;
+}
