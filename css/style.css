@@ -20,7 +20,7 @@ body {
 .nav-button {
     list-style-type: none;
     display: block;
-    float: left;
+    float: right;
     margin: 0;
     padding: 1%;
     text-align: center;
@@ -28,14 +28,14 @@ body {
 
 @media screen and (max-width: 600px) {
     ul.nav-bar li {float: none;}
-    ul.nav-bar #icon {float: none;}
+    ul.nav-bar #icon {display: none;}
   }
 
 #icon {
     list-style-type: none;
     color: #ffffff;
     display: block;
-    float: right;
+    float: left;
     margin: 0;
     padding: 1%;
     text-align: center;
