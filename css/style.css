@@ -31,8 +31,13 @@ body {
     display: block;
     float: left;
     margin: 0;
-    padding: 1%;
+    padding: 0%;
     text-align: center;
+}
+
+#icon-img {
+    position: absolute;
+    height: 100%;
 }
 
 @media screen and (max-width: 600px) {
