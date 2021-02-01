@@ -92,25 +92,21 @@ h1 {
     background-color: #101010;
 }
 
-/* width */
 ::-webkit-scrollbar {
     width: 10px;
     height: 7px;
     border-radius: 10px;
   }
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #363636;
     border-radius: 10px;
   }
   
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #ab6afb;
     border-radius: 10px;
   }
-
 
   ::-webkit-scrollbar-thumb:hover {
     background: #8f38fa;
