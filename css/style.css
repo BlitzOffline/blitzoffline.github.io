@@ -111,7 +111,7 @@ h1 {
     flex-direction: column;
     width: 240px;
     flex: 0 0 auto;
-    border: solid;
+    border: none;
     border-color: #ab6afb;
     border-width: 1px;
     border-radius: 7px;
