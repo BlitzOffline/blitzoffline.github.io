@@ -153,22 +153,30 @@ h1 {
     background-color: #101010;
 }
 
+.projects::-webkit-scrollbar-thumb {
+    background: #717171;
+}
+
+.projects::-webkit-scrollbar-thumb:hover {
+    background: #ab6afb;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
-    height: 7px;
+    height: 6px;
     border-radius: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #363636;
     border-radius: 10px;
-  }
+}
   
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #ab6afb;
     border-radius: 10px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #8f38fa;
-  }
+}
