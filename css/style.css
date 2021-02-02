@@ -62,8 +62,11 @@ h1 {
 }
 
 .parent-box {
-    margin-top: 5%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+    padding-top: 5%;
     background-color: #2a2a2a;
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
 }
 
 .information {
@@ -79,6 +82,7 @@ h1 {
 }
 
 .portofolio-box {
+    margin-top: 2%;
     width: 70%;
     font-size: 120%;
     text-align: left;
@@ -87,6 +91,11 @@ h1 {
 .projects {
     overflow-x: auto;
     display: flex;
+
+    border-right: solid;
+    border-image: linear-gradient(to bottom, #64b3f4 0%, #c2e59c 100%) 1 100%;
+    border-width: 5px;
+
     flex-flow: row nowrap;
     align-items: center;
     margin-bottom: 30px;
@@ -111,9 +120,6 @@ h1 {
     flex-direction: column;
     width: 240px;
     flex: 0 0 auto;
-    border: none;
-    border-color: #ab6afb;
-    border-width: 1px;
     border-radius: 7px;
     background: #1d1d1d;
     box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.25);
@@ -158,6 +164,10 @@ h1 {
 }
 
 .projects::-webkit-scrollbar-thumb:hover {
+    background: #ab6afb;
+}
+
+.projects::-webkit-scrollbar-thumb:active {
     background: #ab6afb;
 }
 
