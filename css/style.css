@@ -12,11 +12,19 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: #ff8cbc;
     text-decoration: none;
 }
 
+
+
+/* LINKS */
 
 .links {
     text-decoration: none;
@@ -56,23 +64,21 @@ a {
 
 
 
-h1 {
-    margin: 0;
-    padding: 0;
-}
+/* TOP PART */
 
 .parent-box {
     margin-top: 2%;
-    padding-bottom: 3%;
-    padding-top: 5%;
+    margin-bottom: 2%;
     background-color: #2a2a2a;
     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
 }
 
 .information {
-    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 7%;
+    text-align: justify;
     font-size: 120%;
-    margin-bottom: 5%;
     width: 70%;
 }
 
@@ -80,6 +86,10 @@ h1 {
     font-size: 450%;
     font-family: 'B612', sans-serif;;
 }
+
+
+
+/* PORTOFOLIO */
 
 .portofolio-box {
     margin-top: 2%;
@@ -94,7 +104,7 @@ h1 {
 
     border-right: solid;
     border-image: linear-gradient(to bottom, #64b3f4 0%, #c2e59c 100%) 1 100%;
-    border-width: 5px;
+    border-width: 2px;
 
     flex-flow: row nowrap;
     align-items: center;
@@ -104,15 +114,6 @@ h1 {
     -khtml-user-select: none;
     -webkit-user-select: none;
 }
-
-.project:hover {
-    cursor: pointer;
-}
-
-.project:active {
-    margin-bottom: 1px;
-}
-
 
 .project {
     position: relative;
@@ -126,6 +127,14 @@ h1 {
     margin-right: 20px;
     margin-left: 5px;
     margin-bottom: 10px;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.project:active {
+    margin-bottom: 1px;
 }
 
 .project-icon {
@@ -148,6 +157,20 @@ h1 {
 }
 
 
+
+/* TEXT BOX */
+
+.text {
+    width: 75%;
+    padding: 3%;
+    font-size: 110%;
+}
+
+
+
+
+/* BOTTOM LINE */
+
 .contact {
     font-size: 150%;
     margin: auto;
@@ -159,17 +182,9 @@ h1 {
     background-color: #101010;
 }
 
-.projects::-webkit-scrollbar-thumb {
-    background: #717171;
-}
 
-.projects::-webkit-scrollbar-thumb:hover {
-    background: #ab6afb;
-}
 
-.projects::-webkit-scrollbar-thumb:active {
-    background: #ab6afb;
-}
+/* SCROLL BAR */
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -183,10 +198,10 @@ h1 {
 }
   
 ::-webkit-scrollbar-thumb {
-    background: #ab6afb;
+    background: #717171;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #8f38fa;
+    background: #ff8cbc;
 }
