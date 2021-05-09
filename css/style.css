@@ -62,7 +62,7 @@ a {
     transition: transform .25s ease-out;
  }
 
-.link-github, .link-discord {
+.link-github, .link-discord .link-spigot{
     display: inline-block;
     width: 48px;
     height: 48px;
