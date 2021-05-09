@@ -62,12 +62,17 @@ a {
     transition: transform .25s ease-out;
  }
 
-.link-github, .link-discord .link-spigot{
+.link-discord .link-spigot{
     display: inline-block;
     width: 48px;
     height: 48px;
     margin-left: 0.3%;
     margin-right: 0.3%;
+}
+
+.link-github {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 
