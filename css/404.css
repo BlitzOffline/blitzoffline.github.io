@@ -2,17 +2,17 @@
 
 html,
 body{
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
 }
 
 div{
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
-  margin: 0px;
+  margin: 0;
   background: radial-gradient(circle, #240015 0%, #12000b 100%);
   overflow: hidden;
 }
@@ -35,8 +35,8 @@ h2{
   display: block;
   color: #12000a;
   font-weight: 300;
-  font-family: Audiowide;
-  text-shadow: 0px 0px 4px #12000a;
+  font-family: Audiowide, sans-serif;
+  text-shadow: 0 0 4px #12000a;
   animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
 }
 
@@ -95,17 +95,17 @@ div{
 
 @keyframes drawLine1 {
   0%  {stroke-dashoffset: -940px;}
-  100%{stroke-dashoffset: 0px;}
+  100%{stroke-dashoffset: 0;}
 }
 
 @keyframes drawLine2 {
   0%  {stroke-dashoffset: -735px;}
-  100%{stroke-dashoffset: 0px;}
+  100%{stroke-dashoffset: 0;}
 }
 
 @keyframes drawLine3 {
   0%  {stroke-dashoffset: -940px;}
-  100%{stroke-dashoffset: 0px;}
+  100%{stroke-dashoffset: 0;}
 }
 
 @keyframes flicker1{
@@ -142,25 +142,25 @@ div{
 }
 
 @keyframes flicker4{
-  0%  {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  30% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  31% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  32% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  36% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  37% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  41% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  42% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  85% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  86% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  95% {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  96% {color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
-  100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  0%  {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  30% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  31% {color: #12000a;text-shadow:0 0 4px #12000a;}
+  32% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  36% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  37% {color: #12000a;text-shadow:0 0 4px #12000a;}
+  41% {color: #12000a;text-shadow:0 0 4px #12000a;}
+  42% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  85% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  86% {color: #12000a;text-shadow:0 0 4px #12000a;}
+  95% {color: #12000a;text-shadow:0 0 4px #12000a;}
+  96% {color: #ff005d;text-shadow:0 0 4px #ff005d;}
+  100%{color: #ff005d;text-shadow:0 0 4px #ff005d;}
 }
 
 @keyframes fadeInText{
-  1%  {color: #12000a;text-shadow:0px 0px 4px #12000a;}
-  70% {color: #ff005d;text-shadow:0px 0px 14px #ff005d;}
-  100%{color: #ff005d;text-shadow:0px 0px 4px #ff005d;}
+  1%  {color: #12000a;text-shadow:0 0 4px #12000a;}
+  70% {color: #ff005d;text-shadow:0 0 14px #ff005d;}
+  100%{color: #ff005d;text-shadow:0 0 4px #ff005d;}
 }
 
 @keyframes hueRotate{
